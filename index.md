@@ -14,7 +14,7 @@ hero:
       text: 本人简历
       link: /jianli
     - theme: alt
-      text: 项目经历
+      text: 项目经验
       link: /xiangmu
 
 features:

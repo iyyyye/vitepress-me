@@ -5,6 +5,9 @@ export default defineConfig({
   title: "iyyye.me",
   description: "前端 程序员 个人网站",
   themeConfig: {
+    outlineTitle:"本节目录",
+    outline:[2,6],
+
     logo:'/logo1.png',
    
     // https://vitepress.dev/reference/default-theme-config
@@ -15,14 +18,14 @@ export default defineConfig({
 
       ]},
       { text: '学习笔记',items:[
-        { text:'vue',link: '/xuexibiji/VUE' },
-        { text:'JavaScript',link: '/' },
-        { text:'ajax',link: '/' },
-        { text:'git',link: '/' },
-        { text:'java',link: '/' },
-        { text:'数据结构',link: '/' },
-        { text:'计算机网络',link: '/' },
-        { text:'手撕源码',link: '/' },
+        { text:'vue2',link: '/xuexibiji/vue2' },
+        { text:'vue3',link: '/xuexibiji/vue3' },
+        { text:'JavaScript',link: '/xuexibiji/js' },
+        { text:'ajax',link: '/xuexibiji/ajax' },
+        { text:'git',link: '/xuexibiji/git' },
+        { text:'数据结构',link: '/xuexibiji/sjjg' },
+        { text:'计算机网络',link: '/xuexibiji/jw' },
+        { text:'手写代码',link: '/xuexibiji/shouxie' },
       
       ]
  },
@@ -30,11 +33,9 @@ export default defineConfig({
 
 
 
- { text: '项目经历',items:[
-  { text:'xxx',link: '/' },
-]},
+ { text: '项目经验',link: '/xiangmu/' },
 
-{text:'作品集',link:'/'},
+// {text:'作品集',link:'/'},
 
     ],
 
@@ -46,17 +47,44 @@ export default defineConfig({
       ],
       '/xuexibiji/': [
         {
-          text: 'vue', link: '/xuexibiji/vue' 
-        }
+          text: 'vue2', link: '/xuexibiji/vue2' ,
+         
+        },
+        {
+          text: 'vue3', link: '/xuexibiji/vue3' ,
+         
+        },{
+           text:'JavaScript',link:'/xuexibiji/js'
+        }, {
+          text: 'ajax', link: '/xuexibiji/ajax' ,
+         
+        },
+        {
+          text: 'git', link: '/xuexibiji/git' ,
+         
+        }, {
+          text: '计算机网络', link: '/xuexibiji/jw' ,
+         
+        },
+        {
+          text: '数据结构', link: '/xuexibiji/sjjg' ,
+         
+        },
+        {
+          text: '手写源码', link: '/xuexibiji/ym' ,
+         
+        },
+       
+       
       ]
     },
     
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/iyyyye' }
     ],
     footer:{
-      message: "联系我：huaan0226@163.com | vx:iyyyey",
+      message: "联系方式：huaan0226@163.com",
       copyright: "Copyright © 2025 Li Jiye. All rights reserved",
     },
   }
