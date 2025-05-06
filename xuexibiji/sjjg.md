@@ -80,13 +80,13 @@ let stack = [];
 #### JS里的任务队列
 
 js是一个单线程
-![js的任务队列流程图](../note/js的任务队列流程图.png)
+![js的任务队列流程图](/js的任务队列流程图.png)
 
 直接点击：
-<img src="../note/演讲微任务1.png" alt="演讲微任务1" style="zoom: 50%;" />
+<img src="/演讲微任务1.png" alt="演讲微任务1" style="zoom: 50%;" />
 
 用JavaScript点击：
-<img src="../note/演讲微任务.png" alt="演讲微任务" style="zoom:50%;" />
+<img src="/演讲微任务.png" alt="演讲微任务" style="zoom:50%;" />
 
 **队列的算法题：力扣933最近的请求次数**
 
@@ -101,9 +101,9 @@ js中的原型链 原理就是 链表结构
 1.数组:有序存储的，在中间某个位置删除或者添加某个元素其他元素要跟着动。
 2.链表中的元素在内存中不是顺序存储的，而是通过"next"指针联系在一起的
 
-![单链表](../note/单链表.png)
+![单链表](/单链表.png)
 
-![双向链表](../note/双向链表.png)
+![双向链表](/双向链表.png)
 
 **遍历链表**
 
@@ -468,7 +468,7 @@ return arr
 
 **AVL=>优化平衡=>红黑树**
 
-![红黑树图解](../note/红黑树图解.png)
+![红黑树图解](/红黑树图解.png)
 
 TREEMAP的底层就是红黑树。
 BST退化成链表，avl的平衡不如红黑树
@@ -481,7 +481,7 @@ BST退化成链表，avl的平衡不如红黑树
 定义：把一堆的数据组成一种树的结构，但是这个树是**通过数组来表示**的（不是链表）堆必须是完全二叉树
 堆序性：大根堆、小根堆
 堆的存储：
-<img src="../note/堆的存储.png" alt="堆的存储" style="zoom: 33%;" />
+<img src="/堆的存储.png" alt="堆的存储" style="zoom: 33%;" />
 节点下标为i
 左子节点下标为2i+1
 右子节点下标为2i+2
@@ -493,7 +493,7 @@ BST退化成链表，avl的平衡不如红黑树
 自下而上1.对每个父节点进行下滤O(N)
 
 优先队列：
-<img src="../note/优先队列2.png" alt="优先队列2" style="zoom:33%;" />
+<img src="/优先队列2.png" alt="优先队列2" style="zoom:33%;" />
 弹出最小元素：直接弹出根节点O(logN)
 插入队列：上滤O（logN）
 堆排序O（NlogN）
@@ -590,7 +590,7 @@ return this.heap.length;
 
 #### 总的大纲思维导图
 
-<img src="../note/数据结构.png" alt="数据结构" style="zoom:33%;" />
+<img src="/数据结构.png" alt="数据结构" style="zoom:33%;" />
 
 **算法：**
 排序：冒泡排序、快速排序、插入排序
@@ -664,7 +664,7 @@ sortMin()
 
 
 
-<img src="../note/归并和快排.png" alt="归并和快排" style="zoom:60%;" />
+<img src="/归并和快排.png" alt="归并和快排" style="zoom:60%;" />
 
 #### 快速排序
 
@@ -700,8 +700,8 @@ nlogn：快速、归并
 
 
 图：
-<img src="../note/排序算法.png" alt="排序算法" style="zoom: 67%;" />
-<img src="../note/排序算法2.png" alt="排序算法2" style="zoom:350%;" />
+<img src="/排序算法.png" alt="排序算法" style="zoom: 67%;" />
+<img src="/排序算法2.png" alt="排序算法2" style="zoom:350%;" />
 
 #### 二分搜索
 

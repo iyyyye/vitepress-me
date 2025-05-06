@@ -6,7 +6,7 @@
 
 
 
-![Snipaste_2024-03-31_18-26-58](../note/Snipaste_2024-03-31_18-26-58.png)
+![Snipaste_2024-03-31_18-26-58](/Snipaste_2024-03-31_18-26-58.png)
 
 物理层：传输**比特流**。
 数据链路层：数据帧。
@@ -23,15 +23,15 @@
 seq，序列号随机生成
 ack，确认号ack=seq+1
 ACK，确认序列号有效
-SYN，发起新链接<img src="../note/tcp3次握手.png" alt="tcp3次握手" style="zoom: 50%;" />
+SYN，发起新链接<img src="/tcp3次握手.png" alt="tcp3次握手" style="zoom: 50%;" />
 
 ## 3、4次挥手
 
-<img src="../note/四次挥手.png" alt="四次挥手" style="zoom:80%;" />
+<img src="/四次挥手.png" alt="四次挥手" style="zoom:80%;" />
 
 ## 4、url
 
-<img src="../note/url.png" alt="url" style="zoom:80%;" />
+<img src="/url.png" alt="url" style="zoom:80%;" />
 
 **dns查询：**
 服务器有ip，为了方便，DNS把ip跟域名做了一个映射，通过对应的域名找到这个服务器对应的ip，再去拿到正确的资源。
@@ -43,7 +43,7 @@ SYN，发起新链接<img src="../note/tcp3次握手.png" alt="tcp3次握手" st
 - 本地host文件
 - 向域名服务器发送请求
 
-<img src="../note/dns域名查找.png" alt="dns域名查找" style="zoom: 50%;" />
+<img src="/dns域名查找.png" alt="dns域名查找" style="zoom: 50%;" />
 
 **options请求**
 
@@ -55,12 +55,12 @@ SYN，发起新链接<img src="../note/tcp3次握手.png" alt="tcp3次握手" st
 **浏览器的缓存**：**强缓存、协商缓存**
 
 **强缓存**：浏览器去缓存一些服务端提供的一些资源，大部分为静态资源（css、js），后台配置，两个字段
-<img src="../note/强缓存.png" alt="强缓存" style="zoom: 50%;" />
+<img src="/强缓存.png" alt="强缓存" style="zoom: 50%;" />
 
 
 
 **协商缓存**：和后端协商
-<img src="../note/协商缓存.png" alt="协商缓存" style="zoom:67%;" />
+<img src="/协商缓存.png" alt="协商缓存" style="zoom:67%;" />
 
 **拿到html页面开始渲染**：绘制dom树，html解析器将超文本和标签解析为dom树
 
@@ -97,21 +97,21 @@ SYN，发起新链接<img src="../note/tcp3次握手.png" alt="tcp3次握手" st
 
 **解析JavaScript**
 v8引擎
-<img src="../note/v8解析JavaScript.png" alt="v8解析JavaScript" style="zoom:50%;" />
+<img src="/v8解析JavaScript.png" alt="v8解析JavaScript" style="zoom:50%;" />
 
 ## 5、CDN内容分发
 
-## <img src="../note/网站上线.png" alt="网站上线" style="zoom:50%;" />
+## <img src="/网站上线.png" alt="网站上线" style="zoom:50%;" />
 
 在服务器上存放前端的一个静态资源，注册一个域名，配置一下dns域名解析，和服务器的ip进行绑定，当用户访问域名的时候，就会经过dns解析，找到服务器ip，返回相关资源
 
-<img src="../note/负载均衡.png" alt="负载均衡" style="zoom:50%;" />
+<img src="/负载均衡.png" alt="负载均衡" style="zoom:50%;" />
 
 ## 6、跨域：出于浏览器的同源策略限制，浏览器会拒绝跨域请求。
 
 同源策略：请求的时候拥有相同的协议 域名 端口 只要有一个不同就属于跨域
 
-<img src="../note/解决跨域的四种.png" alt="解决跨域的四种" style="zoom:50%;" />
+<img src="/解决跨域的四种.png" alt="解决跨域的四种" style="zoom:50%;" />
 
 1.jsonp
 原理：通过script的src不受同源策略的限制，可以跨域请求数据，但是只能发送get请求（缺点：只能发送get请求，不安全，不容易维护）
@@ -220,7 +220,7 @@ wvs、椰树、safe3、burp、w3af--kali、vega--kali
 
 ## tcp三次握手
 
-<img src="../note/三次握手.png" alt="三次握手" style="zoom:80%;" />
+<img src="/三次握手.png" alt="三次握手" style="zoom:80%;" />
 
 客户端
 服务端
@@ -230,14 +230,14 @@ wvs、椰树、safe3、burp、w3af--kali、vega--kali
 服务器 -> 客户端 SYN=1 ACK= 1
 客户端 ->服务器 OK收到可以建立连接了
 
-**四次挥手<img src="../note/四次挥手1.png" alt="四次挥手1" style="zoom:50%;" />**
+**四次挥手<img src="/四次挥手1.png" alt="四次挥手1" style="zoom:50%;" />**
 
 客户端 - 服务器 FIN=1 告诉服务器我要断开连接了
 服务器-客户端 ACK-=1 告诉服务器我知道了，但是我现在还不能断开，因为有可能我的数据还没有传输完成
 服务器-客户端 FIN=1 数据传输完毕了，确认要断开了
 客户端-服务器 -确认断开连接-2MSLtimeawit阶段-等待关闭
 
-<img src="../note/四次挥手.png" alt="四次挥手" style="zoom:80%;" />
+<img src="/四次挥手.png" alt="四次挥手" style="zoom:80%;" />
 
 
 
@@ -245,7 +245,7 @@ wvs、椰树、safe3、burp、w3af--kali、vega--kali
 
 ## 计算机网络
 
-<img src="../note/计算机网络.png" alt="计算机网络" style="zoom:150%;" />
+<img src="/计算机网络.png" alt="计算机网络" style="zoom:150%;" />
 
 arp协议->ip转换mac地址
 tcp->传输层
@@ -275,7 +275,7 @@ https保证了外部传输过程中的传输安全
 
 协商key 的过程：
 对称+非对称+hash散列算法+ca认证
-<img src="../note/https协商过程.png" alt="https协商过程" style="zoom:50%;" />
+<img src="/https协商过程.png" alt="https协商过程" style="zoom:50%;" />
 
 
 
@@ -283,7 +283,7 @@ https保证了外部传输过程中的传输安全
 
 ## cookie/session/localstorage/sessionstorage
 
-<img src="../note/前端存储.png" alt="前端存储" style="zoom:50%;" />
+<img src="/前端存储.png" alt="前端存储" style="zoom:50%;" />
 
 
 
@@ -291,7 +291,7 @@ https保证了外部传输过程中的传输安全
 
 ## DNS原理和域名的配置
 
-![dns路径](../note/dns路径.png)
+![dns路径](/dns路径.png)
 
 **dns的作用：**
 **配置域名去映射ip->  A记录ARecord / ipv6:AAA记录**

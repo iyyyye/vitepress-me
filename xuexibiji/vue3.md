@@ -26,7 +26,7 @@ ctrl + c停止项目
 
 入口index.html引入了一个文件main.ts
 
-main.ts代码的解释<img src="../note/main.js_.png" alt="main.js_" style="zoom: 80%;" />
+main.ts代码的解释<img src="/main.js_.png" alt="main.js_" style="zoom: 80%;" />
 
 components文件夹里面写的是组件
 
@@ -35,13 +35,13 @@ components文件夹里面写的是组件
 ## P5一个简单的效果-写一个组件
 
 写一个Person的组件
-<img src="../note/app组件的代码怎么写.png" alt="app组件的代码怎么写" style="zoom:80%;" />
+<img src="/app组件的代码怎么写.png" alt="app组件的代码怎么写" style="zoom:80%;" />
 
 
 
 Person.vue组件
 
-![一个组件怎么写person](../note/一个组件怎么写person.png)
+![一个组件怎么写person](/一个组件怎么写person.png)
 
 ## P6 options api和composition api
 
@@ -53,7 +53,7 @@ vue2中的选项式api有弊端	->	vue3的组合式api
 
 #### **setup**
 
-**![setup初阶](../note/setup初阶.png)**
+**![setup初阶](/setup初阶.png)**
 
 
 
@@ -77,7 +77,7 @@ vue2中的选项式api有弊端	->	vue3的组合式api
 
 ## **P10setup语法糖**
 
-![setup语法糖写法](../note/setup语法糖写法.png)
+![setup语法糖写法](/setup语法糖写法.png)
 
 
 
@@ -90,15 +90,15 @@ vue2中的选项式api有弊端	->	vue3的组合式api
 
 引用	import
 使用	ref()
-更改/方法	变量名.value![ref](../note/ref.png)
+更改/方法	变量名.value![ref](/ref.png)
 
 因为：
 
-<img src="../note/REF1.png" alt="REF1" style="zoom: 67%;" />
+<img src="/REF1.png" alt="REF1" style="zoom: 67%;" />
 
 然后：
 
-![ref2](../note/ref2.png)
+![ref2](/ref2.png)
 
 ## P12、用reactive来创建对象类型的响应式数据
 
@@ -107,37 +107,37 @@ vue2中的选项式api有弊端	->	vue3的组合式api
 
 reactive()是proxy
 
-用reactive做对象数据的响应式：vue2语法![用reactive做对象数据的响应式](../note/用reactive做对象数据的响应式.png)
+用reactive做对象数据的响应式：vue2语法![用reactive做对象数据的响应式](/用reactive做对象数据的响应式.png)
 
-小tips:![reactive生成响应式对象](../note/reactive生成响应式对象.png)
+小tips:![reactive生成响应式对象](/reactive生成响应式对象.png)
 
 ## P13用ref创建对象类型的响应式数据
 
-![ref、reactive](../note/ref、reactive.png)
+![ref、reactive](/ref、reactive.png)
 
 ref-对象式响应数据怎么做：
-<img src="../note/ref对象.png" alt="ref对象" style="zoom:67%;" />
+<img src="/ref对象.png" alt="ref对象" style="zoom:67%;" />
 
-<img src="../note/ref对象2.png" alt="ref对象2" style="zoom:67%;" />
+<img src="/ref对象2.png" alt="ref对象2" style="zoom:67%;" />
 
-<img src="../note/ref对象3底层.png" alt="ref对象3底层" style="zoom:67%;" />
+<img src="/ref对象3底层.png" alt="ref对象3底层" style="zoom:67%;" />
 
 ## P14ref对比reactiv
 
 ref创建的变量必须使用.value（可以使用vue内置插件自动写.value）
 
 reactive重新分配一个新对象，会失去响应式(可以使用Object.assign去整体替换)
-<img src="../note/object.assign.png" alt="object.assign" style="zoom:67%;" />
+<img src="/object.assign.png" alt="object.assign" style="zoom:67%;" />
 
 使用原则
 
-<img src="../note/使用原则.png" alt="使用原则" style="zoom:150%;" />
+<img src="/使用原则.png" alt="使用原则" style="zoom:150%;" />
 
 
 
-## P15 toRefs与toRef![toRefs](../note/toRefs.png)
+## P15 toRefs与toRef![toRefs](/toRefs.png)
 
-![roRef](../note/roRef.png)
+![roRef](/roRef.png)
 
 ## P16 computed计算属性
 
@@ -145,41 +145,41 @@ reactive重新分配一个新对象，会失去响应式(可以使用Object.assi
 v-bind（简写是:）是单向绑定
 v-model(:value可以简写) 是双向绑定
 
-![computed定义一个可读可写的计算属性](../note/computed定义一个可读可写的计算属性.png)
+![computed定义一个可读可写的计算属性](/computed定义一个可读可写的计算属性.png)
 
 ## P17-20 watch
 
-![watch监视的四种数据](../note/watch监视的四种数据.png)
+![watch监视的四种数据](/watch监视的四种数据.png)
 
 **情况一：**监视ref定义的基本类型数据
-![watch情况一ref](../note/watch情况一ref.png)
+![watch情况一ref](/watch情况一ref.png)
 
 **情况二：**
 **监视【ref】定义的【对象类型】数据**
-![ref监视对象类型数据](../note/ref监视对象类型数据.png)
+![ref监视对象类型数据](/ref监视对象类型数据.png)
 
 **情况三:**
 **监视reactive定义的【对象类型】数据，且默认开启了深度监视******
 
-**![监视reactive定义的对象数据类型](../note/监视reactive定义的对象数据类型.png)**
+**![监视reactive定义的对象数据类型](/监视reactive定义的对象数据类型.png)**
 
 **情况四：**
-**监视ref或者reactive定义的【对象类型】数据中的某个属性(基本or对象)**![监视对象数据中的某个属性时](../note/监视对象数据中的某个属性时.png)
+**监视ref或者reactive定义的【对象类型】数据中的某个属性(基本or对象)**![监视对象数据中的某个属性时](/监视对象数据中的某个属性时.png)
 
 **情况五：**
 **监视上述多个数据**
-![监视多个数据，用数组包函数](../note/监视多个数据，用数组包函数.png)
+![监视多个数据，用数组包函数](/监视多个数据，用数组包函数.png)
 
 **watchEffect**
 
-![watcheffect](../note/watcheffect.png)
+![watcheffect](/watcheffect.png)
 
 ## P23标签的ref标识
 
-<img src="../note/vue3里面app的写法.png" alt="vue3里面app的写法" style="zoom:50%;" />
+<img src="/vue3里面app的写法.png" alt="vue3里面app的写法" style="zoom:50%;" />
 
 **ref标识** 防止组件之间id名字的重复混淆
-![ref标识](../note/ref标识.png)
+![ref标识](/ref标识.png)
 
 ps：局部样式scoped（无脑加）
 
@@ -187,9 +187,9 @@ ref标识可以放在普通html标签上，拿到的是dom元素，也可以放�
 
 ## P24 TS
 
-![ts1](../note/ts1.png)
+![ts1](/ts1.png)
 
-![ts2定义一个接口规定一个对象里面的属性](../note/ts2定义一个接口规定一个对象里面的属性.png)
+![ts2定义一个接口规定一个对象里面的属性](/ts2定义一个接口规定一个对象里面的属性.png)
 
 暴露有三种方式：
 1.默认暴露
@@ -197,59 +197,59 @@ ref标识可以放在普通html标签上，拿到的是dom元素，也可以放�
 3.统一暴露
 
 在组件中使用ts接口的时候需要注意：
-![interface](../note/interface.png)
+![interface](/interface.png)
 
 **泛型**
-![ts泛型](../note/ts泛型.png)
+![ts泛型](/ts泛型.png)
 
 **自定义类型**
-![ts自定义类型](../note/ts自定义类型.png)
+![ts自定义类型](/ts自定义类型.png)
 
-<img src="../note/ts自定义类型调用.png" alt="ts自定义类型调用" style="zoom:67%;" />
+<img src="/ts自定义类型调用.png" alt="ts自定义类型调用" style="zoom:67%;" />
 
 ## P25 Props的使用
 
 **Props 是用于接收父组件传递给子组件的数据的机制。**
 
 小tips：
-1.setup里面的对象类型数据同时用到了reactive响应式和ts泛型![setup里面的对象类型数据同时用到了reactive响应式和ts泛型](../note/setup里面的对象类型数据同时用到了reactive响应式和ts泛型.png)
+1.setup里面的对象类型数据同时用到了reactive响应式和ts泛型![setup里面的对象类型数据同时用到了reactive响应式和ts泛型](/setup里面的对象类型数据同时用到了reactive响应式和ts泛型.png)
 
-2.ts接口可有可无![ts接口可有可无](../note/ts接口可有可无.png)
+2.ts接口可有可无![ts接口可有可无](/ts接口可有可无.png)
 
 3.defined开头的函数叫做宏函数，在vue里面可以不用引入直接使用
 
 **父(App)给子(Person)传值**
 
 defineProps函数
-![props组件传值父传子](../note/props组件传值父传子.png)
+![props组件传值父传子](/props组件传值父传子.png)
 
 ## P26-28生命周期
 
 VUE2的生命周期
 小tips：
-<img src="../note/调试断点.png" alt="调试断点" style="zoom: 67%;" />
+<img src="/调试断点.png" alt="调试断点" style="zoom: 67%;" />
 v-if全部删掉，v-show，只是隐藏结构还在
 
-<img src="../note/vue2生命周期.png" alt="vue2生命周期" style="zoom:80%;" />
+<img src="/vue2生命周期.png" alt="vue2生命周期" style="zoom:80%;" />
 
 
 
 vue3的生命周期
 
-<img src="../note/vue3生命周期.png" alt="vue3生命周期" style="zoom:67%;" />
+<img src="/vue3生命周期.png" alt="vue3生命周期" style="zoom:67%;" />
 
 ## P29自定义Hooks
 
 小tips：安装axios(npm i axios)
-![hooks在组件里怎么引入](../note/hooks在组件里怎么引入.png)
+![hooks在组件里怎么引入](/hooks在组件里怎么引入.png)
 
-![hooks里面的点ts文件怎么写](../note/hooks里面的点ts文件怎么写.png)
+![hooks里面的点ts文件怎么写](/hooks里面的点ts文件怎么写.png)
 
 ## P30路由
 
 1.路由就是一组key-value的对应关系。（单页面应用spa应用）
 2.多个路由，需要经过路由器的管理。
-<img src="../note/路由的概念.png" alt="路由的概念" style="zoom: 33%;" />
+<img src="/路由的概念.png" alt="路由的概念" style="zoom: 33%;" />
 
 ### 一个小项目
 
@@ -258,13 +258,13 @@ vue3的生命周期
 3.创建src/router,编写index.ts路由的文件
 4.在main.ts里配置路由环境
 5.在app里写
-<img src="../note/路由src.png" alt="路由src" style="zoom:67%;" />
+<img src="/路由src.png" alt="路由src" style="zoom:67%;" />
 
-<img src="../note/路由router里的ts配置文件.png" alt="路由router里的ts配置文件" style="zoom: 50%;" />
+<img src="/路由router里的ts配置文件.png" alt="路由router里的ts配置文件" style="zoom: 50%;" />
 
-<img src="../note/main文件挂载app.png" alt="main文件挂载app" style="zoom: 67%;" />
+<img src="/main文件挂载app.png" alt="main文件挂载app" style="zoom: 67%;" />
 
-<img src="../note/app_vue路由写法.png" alt="app_vue路由写法" style="zoom: 67%;" />
+<img src="/app_vue路由写法.png" alt="app_vue路由写法" style="zoom: 67%;" />
 
 两个注意点
 
@@ -273,38 +273,38 @@ vue3的生命周期
 
 ## P33路由器的工作模式
 
-![路由器2个工作模式](../note/路由器2个工作模式.png)
+![路由器2个工作模式](/路由器2个工作模式.png)
 
 RouterLink里面to的两种写法
 `to="/home"`
 `:to="{path:'/home'}"`
 
 **命名路由**
-<img src="../note/命名路由1.png" alt="命名路由1" style="zoom:50%;" />
-<img src="../note/命名路由2.png" alt="命名路由2" style="zoom:50%;" />
+<img src="/命名路由1.png" alt="命名路由1" style="zoom:50%;" />
+<img src="/命名路由2.png" alt="命名路由2" style="zoom:50%;" />
 
 **嵌套路由**
 
-<img src="../note/嵌套路由第一步.png" alt="嵌套路由第一步" style="zoom:67%;" />
+<img src="/嵌套路由第一步.png" alt="嵌套路由第一步" style="zoom:67%;" />
 
-<img src="../note/嵌套路由第二步.png" alt="嵌套路由第二步" style="zoom: 33%;" />
+<img src="/嵌套路由第二步.png" alt="嵌套路由第二步" style="zoom: 33%;" />
 
-![嵌套路由第三步(写一个子路由组件)](../note/嵌套路由第三步(写一个子路由组件).png)
+![嵌套路由第三步(写一个子路由组件)](/嵌套路由第三步(写一个子路由组件).png)
 
 **路由传参**
 
 query参数
-1.传参给子路由怎么写![传参给子路由怎么写](../note/传参给子路由怎么写.png)
+1.传参给子路由怎么写![传参给子路由怎么写](/传参给子路由怎么写.png)
 2.子路由怎么接收并使用
-![子路由接收并使用参数](../note/子路由接收并使用参数.png)
+![子路由接收并使用参数](/子路由接收并使用参数.png)
 
 **params参数**
-![params传参路由](../note/params传参路由.png)
-![params传参路由的子路由接收怎么写](../note/params传参路由的子路由接收怎么写.png)
+![params传参路由](/params传参路由.png)
+![params传参路由的子路由接收怎么写](/params传参路由的子路由接收怎么写.png)
 params传参需要写一下路由配置
-![params路由配置](../note/params路由配置.png)
+![params路由配置](/params路由配置.png)
 
-![传递params参数时的注意项](../note/传递params参数时的注意项.png)
+![传递params参数时的注意项](/传递params参数时的注意项.png)
 
 小tips：
 1、从一个响应式对象身上直接解构属性，属性就此会失去响应式
@@ -315,10 +315,10 @@ params传参需要写一下路由配置
 
 ## P39路由规则的props配置
 
-![路由的props配置](../note/路由的props配置.png)
+![路由的props配置](/路由的props配置.png)
 
 **路由的replace属性**
-![路由的replace属性](../note/路由的replace属性.png)
+![路由的replace属性](/路由的replace属性.png)
 
 在routerlink后面加上replace就可以使页面无法退回（路由在跳转的时候会操作浏览器的历史记录）
 
@@ -326,7 +326,7 @@ params传参需要写一下路由配置
 ## P41 编程式导航
 
 为什么要用编程式导航：  
-![编程式路由导航](../note/编程式路由导航.png){style="zoom: 33%;"}
+![编程式路由导航](/编程式路由导航.png){style="zoom: 33%;"}
 
 脱离 `<RouterLink>` 实现路由跳转，其实就是编程式路由导航。
 
@@ -339,7 +339,7 @@ import { useRouter } from 'vue-router' <br>const router = useRouter() <br> </pre
 
 router.push() 括号里面能写什么？—> to 里能写什么，括号里面就能写什么。 to有两种写法：1是字符串2是对象
 
-![编程式路由导航实际怎么写](../note/编程式路由导航实际怎么写.png)
+![编程式路由导航实际怎么写](/编程式路由导航实际怎么写.png)
 
 ## P42路由的重定向
 
@@ -368,7 +368,7 @@ vuex pinia 集中式状态(数据)管理
 >KAISHI开始pinia
 
 在main.ts里引入pinia
-![pinia的引入](../note/pinia的引入.png)
+![pinia的引入](/pinia的引入.png)
 
 pinia在src文件夹里面有一个store文件夹专门负责管理
 store文件夹->组件名.ts文件
@@ -400,8 +400,8 @@ const 组件名store = use组件名Store()
 1、前面加.组件名Store，**直接改**，（vue2的vuex里不行，pinia可以）
 2、zujianmingStore.$patch({})        **批量变更**（好处，浏览器vue工具里时间线的component events只会有一次$patch的变更）
 3、**最麻烦** 使用actions
-<img src="../note/第三种修改pinia.png" alt="第三种修改pinia" style="zoom:50%;" />
-<img src="../note/第三种修改pinia2.png" alt="第三种修改pinia2" style="zoom: 50%;" />
+<img src="/第三种修改pinia.png" alt="第三种修改pinia" style="zoom:50%;" />
+<img src="/第三种修改pinia2.png" alt="第三种修改pinia2" style="zoom: 50%;" />
 
 **组件.vue文件里面实现解构：用storeToRefs**
 
@@ -415,9 +415,9 @@ const{sum,school,address}=storeToRefs(zujianmingStore)
 ## P49getters
 
 也是store文件(pinia)里的文件中和action、state同级的，getters
-![pinia的store文件里的写法-getters](../note/pinia的store文件里的写法-getters.png)
+![pinia的store文件里的写法-getters](/pinia的store文件里的写法-getters.png)
 在组件.vue文件的里面，直接取过来用
-![pinia的store文件里的写法-getters的用法](../note/pinia的store文件里的写法-getters的用法.png)
+![pinia的store文件里的写法-getters的用法](/pinia的store文件里的写法-getters的用法.png)
 
 ## P50 $订阅【$subscribe】
 
@@ -433,7 +433,7 @@ talkStore.$subscribe((mutate,state)=>{
 ## P51 store组合式写法
 
 统一好风格
-<img src="../note/store组合式写法.png" alt="store组合式写法" style="zoom: 40%;" />
+<img src="/store组合式写法.png" alt="store组合式写法" style="zoom: 40%;" />
 
 ## P52组件通信
 
@@ -444,12 +444,12 @@ talkStore.$subscribe((mutate,state)=>{
 - 若 **父传子**：属性值是**非函数**。
 - 若 **子传父**：属性值是**函数**。
 
-<img src="../note/props组件传值-父子互传.png" alt="props组件传值-父子互传" style="zoom:250%;" />
+<img src="/props组件传值-父子互传.png" alt="props组件传值-父子互传" style="zoom:250%;" />
 
 ### 2.自定义事件===>子传父
 
 $event 表示一个事件对象
-![自定义事件-组件通信](../note/自定义事件-组件通信.png)
+![自定义事件-组件通信](/自定义事件-组件通信.png)
 
 ### 3.mitt-任意组件之间的通信
 
@@ -471,10 +471,10 @@ export default emitter
 ```
 
 然后在main.ts文件里引入，import emitter from '@/ulits/emitter'
-![mitt的emitter文件1](../note/mitt的emitter文件1.png)
+![mitt的emitter文件1](/mitt的emitter文件1.png)
 
 利用mitt实现所有组件之间的通信
-![mitt的emitter实现组件通信](../note/mitt的emitter实现组件通信.png)
+![mitt的emitter实现组件通信](/mitt的emitter实现组件通信.png)
 ps：记得在onunmounted 的时候解绑事件
 
 ### 4.v-model 
@@ -503,33 +503,33 @@ v-model用在组件上
 ```
 
 底层的ui库，即ui组件.vue里的底层写法：
-![ui组件库底层实现v-model](../note/ui组件库底层实现v-model.png)
+![ui组件库底层实现v-model](/ui组件库底层实现v-model.png)
 
-$event是啥，什么时候.target![](../note/$event是啥.png)
+$event是啥，什么时候.target![](/$event是啥.png)
 
 v-model的细节补充
-<img src="../note/v-model补充.png" alt="v-model补充" style="zoom:80%;" />
+<img src="/v-model补充.png" alt="v-model补充" style="zoom:80%;" />
 
 ### 5.$attrs祖->孙
 
-![祖孙通过$attrs互传](../note/祖孙通过$attrs互传.png)
+![祖孙通过$attrs互传](/祖孙通过$attrs互传.png)
 
 ### 6.$refs和$parent
 
 ref父传子
-![ref父改子的数据](../note/ref父改子的数据.png)
+![ref父改子的数据](/ref父改子的数据.png)
 
 refs父传子
-![refs、](../note/refs、.png)
+![refs、](/refs、.png)
 
 parent子传父
-![$parent父传子](../note/$parent父传子.png)
+![$parent父传子](/$parent父传子.png)
 
 ### 6.provide-inject祖孙之间
 
 祖传孙
 
-![provide-inject祖传孙](../note/provide-inject祖传孙.png)
+![provide-inject祖传孙](/provide-inject祖传孙.png)
 
 孙传祖
 
@@ -539,28 +539,28 @@ parent子传父
 
 > 默认插槽
 
-![slot默认插槽](../note/slot默认插槽.png)
+![slot默认插槽](/slot默认插槽.png)
 
 >具名插槽：只能放在组件标签和template上
 
 v-slot:s1
 简写：#s1
 
-![具名插槽](../note/具名插槽.png)
+![具名插槽](/具名插槽.png)
 
 >作用域插槽
 
 解决作用域问题，相当于props组件通信
 
-![作用域插槽](../note/作用域插槽.png)
+![作用域插槽](/作用域插槽.png)
 
-ps:<img src="../note/作用域插槽name属性.png" alt="作用域插槽name属性" style="zoom:50%;" />
+ps:<img src="/作用域插槽name属性.png" alt="作用域插槽name属性" style="zoom:50%;" />
 
 
 
 ### 几种组件通信总结
 
-<img src="../note/组件通信总结.png" alt="组件通信总结" style="zoom:67%;" />
+<img src="/组件通信总结.png" alt="组件通信总结" style="zoom:67%;" />
 
 ## P64其他api【shallowRef 与 shallowReactive 】
 
@@ -656,11 +656,11 @@ let person2 = toRaw(person)
 
 作用：创建一个自定义的`ref`，并对其依赖项跟踪和更新触发进行逻辑控制。
 
-![customR而非、](../note/customR而非、.png)
+![customR而非、](/customR而非、.png)
 
 封装成hooks
-![封装一个customref的hooks方法方便调用](../note/封装一个customref的hooks方法方便调用.png)
-调用：![调用封装好的customref](../note/调用封装好的customref.png)
+![封装一个customref的hooks方法方便调用](/封装一个customref的hooks方法方便调用.png)
+调用：![调用封装好的customref](/调用封装好的customref.png)
 
 # 8. Vue3新组件
 
@@ -681,9 +681,9 @@ let person2 = toRaw(person)
 ## 8.2. 【Suspense】
 
 子组件在script结构里面写异步任务的时候会导致子组件丢失渲染-->解决：在父组件里用suspense包裹子组件，并添加默认插槽：
-![suspense](../note/suspense.png)
+![suspense](/suspense.png)
 
-![suspense-api](../note/suspense-api.png)
+![suspense-api](/suspense-api.png)
 
 -  等待异步组件时渲染一些额外内容，让应用有更好的用户体验 
 -  使用步骤： 

@@ -17,7 +17,9 @@
     </script>
 ~~~
 
-<img src="../note/url地址.png" alt="url地址" style="zoom:33%;" />
+<img src="/ur1-ad.png" alt="url-ad" style="zoom:33%;" />
+
+
 
 url查询参数
 语法：
@@ -68,10 +70,10 @@ document.querySelector('.btn').addEventListener('click', () => {
 ~~~
 
 **HTTP协议-请求报文** 
-<img src="../note/请求报文0.png" alt="请求报文0" style="zoom: 33%;" />
+<img src="/请求报文0.png" alt="请求报文0" style="zoom: 33%;" />
 
 请求报文-错误排查
-<img src="../note/请求报文-检查错误.png" alt="请求报文-检查错误" style="zoom: 50%;" />
+<img src="/请求报文-检查错误.png" alt="请求报文-检查错误" style="zoom: 50%;" />
 
 **响应报文**：与请求报文相反，是服务器返回给浏览器的报文，格式一样
 1.**响应行/状态行**：协议、**HTTP 响应状态码**、状态信息
@@ -118,7 +120,7 @@ modal.hide()
 图书管理系统，代码实写
 
 高级遍历：
-<img src="../note/高级遍历用法-图书管理系统.png" alt="高级遍历用法-图书管理系统" style="zoom:50%;" />
+<img src="/高级遍历用法-图书管理系统.png" alt="高级遍历用法-图书管理系统" style="zoom:50%;" />
 
 
 
@@ -131,7 +133,7 @@ modal.hide()
 3.提交表单数据到服务器
 4.使用图片url网址
 
-![图片上传](../note/图片上传.png)
+![图片上传](/图片上传.png)
 
 
 
@@ -202,19 +204,19 @@ document.querySelector('.submit').addEventListener('click', e => {
 ~~~
 
 个人信息设置案例-提示框
-<img src="../note/boos提示框代码.png" alt="boos提示框代码" style="zoom:50%;" />
-<img src="../note/bootstarp提示框显示隐藏和前置插入.png" alt="bootstarp提示框显示隐藏和前置插入" style="zoom:50%;" />
+<img src="/boos提示框代码.png" alt="boos提示框代码" style="zoom:50%;" />
+<img src="/bootstarp提示框显示隐藏和前置插入.png" alt="bootstarp提示框显示隐藏和前置插入" style="zoom:50%;" />
 
 ## AJAX-DAY3
 
 AJAX原理-XMLHttpRequest
-![xhr的使用方法代码](../note/xhr的使用方法代码.png)
+![xhr的使用方法代码](/xhr的使用方法代码.png)
 
-<img src="../note/api自动把对象转换成url上传的字符串格式的方法.png" alt="api自动把对象转换成url上传的字符串格式的方法" style="zoom: 67%;" />
+<img src="/api自动把对象转换成url上传的字符串格式的方法.png" alt="api自动把对象转换成url上传的字符串格式的方法" style="zoom: 67%;" />
 
 原生XMLHttpRequest-数据提交
 
-<img src="../note/xhr数据提交-请求头请求体.png" alt="xhr数据提交-请求头请求体" style="zoom:50%;" />
+<img src="/xhr数据提交-请求头请求体.png" alt="xhr数据提交-请求头请求体" style="zoom:50%;" />
 
 **Promise**：promise对象用于管理异步代码
 
@@ -234,11 +236,11 @@ p.then(result=>{
 ~~~
 
  Promis的三种状态
-<img src="../note/promis的三种状态.png" alt="promis的三种状态" style="zoom: 50%;" />
+<img src="/promis的三种状态.png" alt="promis的三种状态" style="zoom: 50%;" />
 
 用promise对象管理xhr
 
-![用promise对象管理xhr的错误和正确](../note/用promise对象管理xhr的错误和正确.png)
+![用promise对象管理xhr的错误和正确](/用promise对象管理xhr的错误和正确.png)
 
 逻辑与 中断 &&（a && b）a为空，中断，不执行b
 逻辑或  || 前面有值用前面（传进来的参数）的，前面没有，才用后面（设置默认参数）的 
@@ -410,25 +412,25 @@ document.querySelector('.search-list').addEventListener('click', (e) => {
 
 **Promise-链式调用**
 概念:依靠 then()方法会返回一个新生成的 Promise 对象特性，继续串联下一环任务，直到结束
-then()回调函数中的返回值，会影响新生成的 Promise 对象最终状态和结果通过链式调用，解决回调函数嵌套问题![promis链式调用](../note/promis链式调用.png)
+then()回调函数中的返回值，会影响新生成的 Promise 对象最终状态和结果通过链式调用，解决回调函数嵌套问题![promis链式调用](/promis链式调用.png)
 
-![](../note/promis-链式.png)
+![](/promis-链式.png)
 
 **async函数和await**
-![用await关键字解决回调函数地狱](../note/用await关键字解决回调函数地狱.png)
+![用await关键字解决回调函数地狱](/用await关键字解决回调函数地狱.png)
 
 **async函数和await_错误捕获**(try里面的代码出错全部不执行)
-<img src="../note/async函数错误捕获try_catch.png" alt="async函数错误捕获try_catch" style="zoom: 45%;" />
+<img src="/async函数错误捕获try_catch.png" alt="async函数错误捕获try_catch" style="zoom: 45%;" />
 打印错误console.dir(error)
 
 **事件循环EventLoop**
-<img src="../note/事件循环模型.png" alt="事件循环模型" style="zoom:40%;" />
+<img src="/事件循环模型.png" alt="事件循环模型" style="zoom:40%;" />
 
 **宏任务与微任务**（调用栈先执行微任务）
-![宏任务微任务](../note/宏任务微任务.png)
+![宏任务微任务](/宏任务微任务.png)
 
 Promise.all 静态方法
-<img src="../note/promiseall的静态方法.png" alt="promiseall的静态方法" style="zoom:40%;" />
+<img src="/promiseall的静态方法.png" alt="promiseall的静态方法" style="zoom:40%;" />
 
 语法:
 
@@ -442,7 +444,7 @@ const p = Promise.a11([Promise对象，Promise对象，...])p.then(result => {
 })
 ~~~
 
-案例-<img src="../note/案例-提交反馈代码.png" alt="案例-提交反馈代码" style="zoom:70%;" />
+案例-<img src="/案例-提交反馈代码.png" alt="案例-提交反馈代码" style="zoom:70%;" />
 
 ## 项目
 
@@ -676,7 +678,7 @@ fs.readFile(path.join(__dirname,'public/index.html'),(err,data)=>{
 
 **URL中的端口号**
 
-![url](../note/url.png)
+![url](/url.png)
 
 **创建web服务模块**
 
@@ -700,19 +702,19 @@ server.listen(3000, () => {
 
 **模块化commonJS标准**
 
-<img src="../note/commonjs标准.png" alt="commonjs标准" style="zoom: 80%;" />
+<img src="/commonjs标准.png" alt="commonjs标准" style="zoom: 80%;" />
 
 **ECMAScript标准**-默认导出和导入
 
-<img src="../note/es标准导入导出.png" alt="es标准导入导出" style="zoom: 80%;" />
+<img src="/es标准导入导出.png" alt="es标准导入导出" style="zoom: 80%;" />
 
-<img src="../note/es标准命名导出导入.png" alt="es标准命名导出导入" style="zoom:50%;" />
+<img src="/es标准命名导出导入.png" alt="es标准命名导出导入" style="zoom:50%;" />
 
 按需加载，使用命名导出和导入
 全部加载，使用默认导出和导入
 
 **包（项目/软件包）**
-![包](../note/包.png)
+![包](/包.png)
 
 **package.json内容**
 
@@ -729,11 +731,11 @@ server.listen(3000, () => {
 
 **包-把方法.js们使用commonJs标准导出到index.js里**
 
-![包-统一封装到唯一对外的index里](../note/包-统一封装到唯一对外的index里.png)
+![包-统一封装到唯一对外的index里](/包-统一封装到唯一对外的index里.png)
 
 **包-在项目文件中用commonJS标准导入工具包**
 
-![包-导入软件包](../note/包-导入软件包.png)
+![包-导入软件包](/包-导入软件包.png)
 
 **npm-软件包管理器**
 初始化清单文件：npm init -y（得到package.json文件,有则略过）
@@ -741,7 +743,7 @@ server.listen(3000, () => {
 使用软件包（模块化:const a = require('dayjs')）
 ps:如没有mode_modules，直接npm i
 
-![模块化的标准语法](../note/模块化的标准语法.png)
+![模块化的标准语法](/模块化的标准语法.png)
 
 
 
@@ -851,7 +853,7 @@ new MiniCssExtractplugin()
 
 **webpack-搭建开发环境**
 开发环境：配置webpack-dev-server快速开发应用程序。自动检测热更新
-![webpack-dev-serve](../note/webpack-dev-serve.png)
+![webpack-dev-serve](/webpack-dev-serve.png)
 
 设置模式为开发模式，并配置自定义命令
 module.eexports={
@@ -872,11 +874,11 @@ mode:'development'
 所以：直接在public里新建一个index.html，写`<s>location.href = 'login/index.html'</s>`
 
 **打包模式**
-	![打包模式](../note/打包模式.png)
+	![打包模式](/打包模式.png)
 
 **打包的应用**
 借助cross-env（跨平台通用）包命令，设置参数区分环境
-<img src="../note/cross-env.png" alt="cross-env" style="zoom:60%;" />
+<img src="/cross-env.png" alt="cross-env" style="zoom:60%;" />
 
 或者配置不同的webpack.config.js文件
 
@@ -889,10 +891,10 @@ devtool:'inline-source-map
 }
 
 **解析别名alias**
-![路径别名的设置](../note/路径别名的设置.png)
+![路径别名的设置](/路径别名的设置.png)
 
 优化-cdn使用
-![优化cdn的使用](../note/优化cdn的使用.png)
+![优化cdn的使用](/优化cdn的使用.png)
 
 **多页面打包**（没学会）
 
@@ -906,25 +908,25 @@ devtool:'inline-source-map
 
 git仓库（.git文件夹）创建：`git init`
 
-![git精髓图](../note/git精髓.png)
+![git精髓图](/git精髓.png)
 
 git文件2种文件：未跟踪、已跟踪（`git add`）
 `git status -s`查看文件状态
-<img src="../note/git文件状态.png" alt="git文件状态" style="zoom:60%;" />
+<img src="/git文件状态.png" alt="git文件状态" style="zoom:60%;" />
 
 `git restore 目标文件`	使暂存区覆盖工作区的目标文件
 `git rm --cached 目标文件`	移除暂存区的文件	
 
 `git log --oneline`	查看commit提交历史（完整日志查看	`git reflog --oneline`）
 
-<img src="../note/git回退命令.png" alt="git回退命令" style="zoom:67%;" />
+<img src="/git回退命令.png" alt="git回退命令" style="zoom:67%;" />
 
 创建.gitignore文件夹
 
-![git忽略文件](../note/git忽略文件.png)
+![git忽略文件](/git忽略文件.png)
 
 **分支概念**
-![git分支的作用](../note/git分支的作用.png)
+![git分支的作用](/git分支的作用.png)
 
 **创建分支**命令：`git bracnch 分支名`
 
@@ -932,7 +934,7 @@ git文件2种文件：未跟踪、已跟踪（`git add`）
 
 **查看**当前仓库中存在的分支：`git branch`
 
-<img src="../note/git切换分支注意事项先切回主分支.png" alt="git切换分支注意事项先切回主分支" style="zoom: 60%;" />
+<img src="/git切换分支注意事项先切回主分支.png" alt="git切换分支注意事项先切回主分支" style="zoom: 60%;" />
 
 **合并分支**(都一样)：
 分支代码addcommit提交
@@ -945,9 +947,9 @@ git文件2种文件：未跟踪、已跟踪（`git add`）
 
 **git常用命令**
 
-![git常用命令1](../note/git常用命令1.png)
+![git常用命令1](/git常用命令1.png)
 
-![git常用命令2](../note/git常用命令2.png)
+![git常用命令2](/git常用命令2.png)
 
 **git远程仓库**
 
@@ -974,4 +976,4 @@ git文件2种文件：未跟踪、已跟踪（`git add`）
 4.然后push本地仓库，提交到远程仓库中，`git push ori master`
 
 git远程仓库的命令大全
-![git远程仓库命令大全](../note/git远程仓库命令大全.png)
+![git远程仓库命令大全](/git远程仓库命令大全.png)

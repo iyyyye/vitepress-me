@@ -1,0 +1,1 @@
+一个基于 [VitePress](https://vitepress.vuejs.org/) 构建的静态个人网站，使用宝塔面板部署和管理。

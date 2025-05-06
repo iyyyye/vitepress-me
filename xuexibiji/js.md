@@ -7,7 +7,7 @@
 ```
 <script> alenrt </script> 页面弹出警示框
 
-<script src="../note/my.js"> 外部引用中间不写代码 </script>
+<script src="/my.js"> 外部引用中间不写代码 </script>
 ```
 
 注释，ctrl+/ ctrl+shift+a	结束符；可不加
@@ -478,7 +478,7 @@ const优先（reat），const定义的时候不
 数组和对象使用const
 简单数据类型用let
 
-<img src="../note/Snipaste_2023-10-14_19-53-32.png" alt="Snipaste_2023-10-14_19-53-32" style="zoom: 67%;" />
+<img src="/Snipaste_2023-10-14_19-53-32.png" alt="Snipaste_2023-10-14_19-53-32" style="zoom: 67%;" />
 
 dom树
 
@@ -593,7 +593,7 @@ console.log(one. dataset.spm)// 不知道
 
 定时关闭开启案例：
 
-![定时关闭开启案例代码](../note/定时关闭开启案例代码.png)
+![定时关闭开启案例代码](/定时关闭开启案例代码.png)
 
 综合案例定时轮播图
 
@@ -639,15 +639,15 @@ input 用户输入事件
 
 **事件对象**（属性和方法）
 
-![事件对象](../note/事件对象.png)
+![事件对象](/事件对象.png)
 
 检测键盘输入：key
 
-![key检测](../note/key检测.png)
+![key检测](/key检测.png)
 
 回车发布评论：
 
-![案例回车发布评论](../note/案例回车发布评论.png)
+![案例回车发布评论](/案例回车发布评论.png)
 
 trim()清空两侧的空格方法
 
@@ -677,7 +677,7 @@ addEventListener的解绑：`btn.removeEventListener('click', fn)`匿名事件�
 **事件委托**	减少注册次数，可以提高程序性能。利用事件冒泡的特点，给父元注册事件。
 然后实现：事件对象.target.tagName
 
-![事件委托的情况下怎么找到点击元素](../note/事件委托的情况下怎么找到点击元素.png)
+![事件委托的情况下怎么找到点击元素](/事件委托的情况下怎么找到点击元素.png)
 
 
 
@@ -774,7 +774,7 @@ css做页面平滑划动
 获得当前时间	const date = new Date()
 
 ~~~javascript
-![倒计时公式](../note/倒计时公式.png)Zconst div = document.querySelector('div')
+![倒计时公式](/倒计时公式.png)Zconst div = document.querySelector('div')
 function getMyDate(){
     //实例化时间
     const date = new date
@@ -819,7 +819,7 @@ console.log(date.getTime())
 Date.now()
 ~~~
 
-<img src="../note/倒计时公式.png" alt="倒计时公式" style="zoom:50%;" />
+<img src="/倒计时公式.png" alt="倒计时公式" style="zoom:50%;" />
 
 **节点操作**
 
@@ -838,7 +838,7 @@ dom节点：dom树里的每一个内容都称之为节点（**元素节点**、�
 克隆节点：元素.cloneNode(布尔值)
 无缝滚动：
 
-![无缝滚动节点克隆代码](../note/无缝滚动节点克隆代码.png)
+![无缝滚动节点克隆代码](/无缝滚动节点克隆代码.png)
 
 删除节点：父元素.removeChild(要删除的元素)
 
@@ -850,7 +850,7 @@ touchstart、touchmove、touchend
 学习插件的过程：
 熟悉官网—看在线演示找符合要求的demo—查看基本使用流程—查看api文档配置自己的插件（多个swiper同时使用的时候，类名需要注意区分）
 
-![在html里面代码调用swiper怎么写css&js](../note/在html里面代码调用swiper怎么写css&js.png)
+![在html里面代码调用swiper怎么写css&js](/在html里面代码调用swiper怎么写css&js.png)
 
 
 
@@ -955,10 +955,10 @@ touchstart、touchmove、touchend
 同步和异步（同步任务-执行栈，异步任务-任务队列）
 步骤：1.先执行执行栈中的同步任务2.异步任务放入任务队列3.一旦执行栈里的所有的同步任务执行完毕之后，系统就会按照次序执行任务队列里的异步任务，于是被读取的异步任务结束等待状态，进入执行栈，开始执行（事件循环）
 
-<img src="../note/js执行机制.png" alt="js执行机制" style="zoom: 80%;" />
+<img src="/js执行机制.png" alt="js执行机制" style="zoom: 80%;" />
 
 **location对象**
-`location.herf`<img src="../note/js自动跳转页面.png" alt="js自动跳转页面" style="zoom: 50%;" />
+`location.herf`<img src="/js自动跳转页面.png" alt="js自动跳转页面" style="zoom: 50%;" />
 
 location还有属性：search（?后面的部分），hash（#后面的部分），reload（F5）
 
@@ -967,7 +967,7 @@ location还有属性：search（?后面的部分），hash（#后面的部分）
 
 **history对象**
 方法：back()	forward()	go()
-<img src="../note/history.方法写前进后退.png" alt="history.方法写前进后退" style="zoom: 50%;" />
+<img src="/history.方法写前进后退.png" alt="history.方法写前进后退" style="zoom: 50%;" />
 
 #### **本地存储**（数据存储在用户浏览器中）
 
@@ -1024,12 +1024,12 @@ arr.join('/') //自定义符号
 **元字符（特殊的字符）**
 边界符：^开始 $结束，^$一起时表示精确匹配只能1个
 量词：
-<img src="../note/元字符-量词表.png" alt="元字符-量词表" style="zoom:50%;" />
+<img src="/元字符-量词表.png" alt="元字符-量词表" style="zoom:50%;" />
 字符类：[]匹配字符集合：只要包含里面的任意一个字符，都返回true
 [^]取反	.除了换行符
 
 预定义：
-<img src="../note/字符类-预定义图标.png" style="zoom: 50%;" />
+<img src="/字符类-预定义图标.png" style="zoom: 50%;" />
 
 **修饰符**
 
@@ -1056,7 +1056,7 @@ i匹配时字符不区分大小写；g所有满足的结果
 切换类toggle
 检查是否有某个类：classList.contains()，有返回true，无返回false
 
-![](../note/tab栏切换的事件委托(排他思想).png)
+![](/tab栏切换的事件委托(排他思想).png)
 
 历史记录关闭（表单form）: 	`autocomplete="off"`
 
@@ -1102,11 +1102,11 @@ i匹配时字符不区分大小写；g所有满足的结果
   **标记清除法：**从global全局出发，无法到达的对象清除
 
 - 闭包(内层函数+外层函数的变量)
-  <img src="../note/闭包使用代码.png" alt="闭包使用代码" style="zoom: 33%;" />
+  <img src="/闭包使用代码.png" alt="闭包使用代码" style="zoom: 33%;" />
   闭包应用：实现数据的私有（也有内存泄漏的风险）
 
 - 变量提升：仅存在var声明变量
-  <img src="../note/Var变量提升.png" alt="Var变量提升" style="zoom: 50%;" />
+  <img src="/Var变量提升.png" alt="Var变量提升" style="zoom: 50%;" />
 
 **函数进阶**
 **函数提升**(无所谓)：同变量提升的原理（但函数表达式不行，因为本质是赋值不是声明）
@@ -1234,7 +1234,7 @@ Array
 
 **数组方法**
 find的实际使用：
-<img src="../note/find方法查找数组对象中包含某一属性的元素.png" alt="find方法查找数组对象中包含某一属性的元素" style="zoom: 50%;" />
+<img src="/find方法查找数组对象中包含某一属性的元素.png" alt="find方法查找数组对象中包含某一属性的元素" style="zoom: 50%;" />
 `const mi = arr.find(item => item.name === '小米')`
 
 every、some方法
@@ -1249,7 +1249,7 @@ every、some方法
 字符串String
 实例方法
 
-<img src="../note/String常见的实例方法.png" style="zoom:67%;" />
+<img src="/String常见的实例方法.png" style="zoom:67%;" />
 
 **数组—>字符串，join方法**
 **字符串—>数组，split('分隔符')**	然后通常用map来遍历数组再用join
@@ -1307,7 +1307,7 @@ arr.max()
 **constructor属性**
 
 每个构造函数里面都有constructor属性，指向其构造函数
-<img src="../note/用prototype属性定义多个函数方法的时候,需要重新指回构造函数一下.png" style="zoom: 50%;" />
+<img src="/用prototype属性定义多个函数方法的时候,需要重新指回构造函数一下.png" style="zoom: 50%;" />
 
 **对象原型**
 每一个实例对象，都有一个 `__proto__`属性，这个属性(对象原型)指向构造函数的prototype原型对象。
@@ -1336,7 +1336,7 @@ const a = new Woman()
 为了解决**这个问题**，需要**再套一个构造函数**，function Person(){this.eyes = 2}，然后在修改实例化对象的原型对象的时候这么写Woman.prototype = new Person()
 
 **原型链**
-<img src="../note/原型链图示.png" alt="原型链图示" style="zoom: %;" />
+<img src="/原型链图示.png" alt="原型链图示" style="zoom: %;" />
 
 查找规则：当访问一个对象的属性(包括方法)时，首先查找这个对象自身有没有该属性。如果没有就查找它的原型 (也就是__proto__指向的 prototype 原型对象)如果还没有就查找原型对象的原型 (object的原型对象)依此类推一直找到 object 为止 (null)
 proto 对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线可以使用 instanceof 运算符用于检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上
